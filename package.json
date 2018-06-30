@@ -1,0 +1,24 @@
+{
+  "name": "jwtjs",
+  "version": "1.0.0",
+  "description": "jwt methods for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drkaka/jwtjs.git"
+  },
+  "author": "Kaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drkaka/jwtjs/issues"
+  },
+  "homepage": "https://github.com/drkaka/jwtjs#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "rsa-pem-to-jwk": "^1.1.3",
+    "uuid": "^3.3.2"
+  }
+}
