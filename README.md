@@ -46,7 +46,7 @@ $ docker build -t jwksserver .
 ```
 Start and run the jwksserver:
 ```console
-$ docker run -dit --name jwksserver -p 8080:80 jwksserver
+$ docker run -dit --name jwksserver -p 8080:8080 jwksserver
 ```
 Check whether it works:
 ```console
